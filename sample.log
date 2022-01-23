@@ -1,3 +1,3 @@
-2022-01-22 17:21:27.564920 [INFO] [224003] [172.104.162.17:52454#localhost] [Module:mod_security] ModSecurity: Warning. Matched "Operator `PmFromFile' with parameter `userdata_wl_content_type' against variable `TX:0' (Value: `application/x-www-form-urlencoded' ) [file "/usr/local/lsws/conf/modsec/comodo/09_HTTP_HTTP.conf"] [line "16"] [id "210710"] [rev "5"] [msg "COMODO WAF: Request content type is not allowed by policy. Please update file userdata_wl_content_type.||localhost|F|2"] [data "TX:0=application/x-www-form-urlencoded"] [severity "2"] [ver ""] [maturity "0"] [accuracy "0"] [tag "CWAF"] [tag "HTTP"] [hostname "localhost"] [uri "/"] [unique_id "1642872087"] [ref "v0,4o0,33o0,33v154,33"]
-2022-01-22 17:28:05.763603 [INFO] [224003] [5624.655340]: locked pid file [/tmp/lshttpd/5624.sock.pid].
-2022-01-22 17:28:05.763636 [INFO] [224003] [5624.655340] remove unix socket for detached process: /tmp/lshttpd/5624.sock
+2022-01-22 17:21:27.564920 [INFO] [224003] [172.104.162.17:52454#localhost]
+2022-01-22 17:28:05.763603 [INFO] [224003] [5624.655340]
+2022-01-22 17:28:05.763636 [INFO] [224003] [5624.655340]
